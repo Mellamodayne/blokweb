@@ -40,11 +40,11 @@ https://bbcicecream.eu/pages/eu-sounds
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Dit is de eerste pagina van de Billionaire Boys Club EU Sounds waar je artiesten ziet staan die zij geïnterviewd hebben.
-<img src="images/icecream_pagina1.png" width="375px" alt="Terrestrail Soungs">
+<img src="images/bbc_pagina1.png" width="375px" alt="Terrestrail Soungs">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Je kan meer weten over de artiest om op zijn foto te drukken, waarbij je vervolgens op een pagina komt met vragen en antwoorden.
-<img src="images/icecream_pagina2.png" width="375px" alt="Boys of Tomorrow Vol: 6. Goya Gumbani">
+<img src="images/bbc_pagina2.png" width="375px" alt="Boys of Tomorrow Vol: 6. Goya Gumbani">
  
 </details>
 
