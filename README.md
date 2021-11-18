@@ -40,11 +40,11 @@ https://bbcicecream.eu/collections/icecream
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/icecream_pagina1.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="../basiswebsite/images/icecream_pagina1.png" width="375px" alt="Kleding website waarvan ik de vormgeving mooi vind..">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/icecream_pagina2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="../images/icecream_pagina2.jpg" width="375px" alt="Een foto van een model met daarnaast kleding die te koop staan. Het lijkt mij een uitdaging om dit te maken.">
  
 </details>
 
