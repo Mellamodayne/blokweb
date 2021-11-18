@@ -39,12 +39,12 @@ Surface plane
 https://bbcicecream.eu/collections/icecream
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Ice Cream - homepage
-<img src="../basiswebsite/images/icecream_pagina1.png" alt="">
+Ice Cream - Homepage
+<img src="images/icecream_pagina1.png" width="375px" alt="">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Ice Cream - modelpage
-<img src="images/icecream_pagina2.jpg" width="375px" alt="">
+Ice Cream - Modelpage
+<img src="images/icecream_pagina2.png" width="375px" alt="">
  
 </details>
 
