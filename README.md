@@ -92,10 +92,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- EM is gelijk aan 14 pixels, dat kan je beste gebruiken omdat dit meegaat bij het vergroten of verkleinen.
+- Font-family zoeken op Google Font website,waarbij je vervolgens de link kopieerd die je kan plakken in je HTML head.
+- Semantisch is de waarde die we hechten aan woorden, zoals een zinsopbouw. 
 
 </details>
 
@@ -125,10 +124,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Flex end = uitlijnen eind van de container
+- Flex end = uitlijnen begin vand e container
+- Overflow is,stel je hebt een box met plaatjes, dat het dan niet over de lijn gaat van de box. Je kan bij overflow auto scrollen van links naar rechts.
 
 </details>
 
@@ -145,27 +143,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Bij images staat .. voor een mapje terug.
+Voorbeeld: Van index.html linken naar foto2019.jpg: “..images/foto2019.jpg”, gebruik dit niet bij github, omdat zij jouw mapje niet hebben. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Gebruik: img src="images/voorbeed2021.png" alt="">
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+<ol> is een geordende lijst 
+<ul> is een ongeordende lijst
+<li>  is een gelijste
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ordered list is een lijst met getallen 1,2,3,4 etc. en een unordered list is een list met bullits (van die zwarte bolletjes)
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+H1, H3, H3 tags zijn heading tags. De H1 is de eerste kop van een pagina.
 
 
 #### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Je kan ieder section
 
 </details>
 

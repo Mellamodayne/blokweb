@@ -6,68 +6,119 @@
 
 /*<-----------ACHTERGROND----------->*/
 body{
-  background-image: url(../images/R1-09750-0035.JPG);
+  background-image: url(../images/tv4.png);
 }
 
 /*<-----------HEADER----------->*/
-ul{
+header{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content:space-between;
+  width: 100%;
+  padding: 1em;
+  top: 0;
+  list-style: none;
+  z-index: 2;
+}
+
+header img:first-of-type{
+  width: 3em;
+  z-index: 2;
+}
+
+header img:nth-of-type(2){
+  width: 2em;
+  z-index: 2;
+}
+
+/*<-----------HEADER NAV---------->*/
+nav button{
+  padding: 0;
+  background-color: var(--hoofdkleur);
+  border: none;
+  z-index: 2;
+}
+
+nav button img{
+  margin: .5em;
+  pointer-events: none;
+  z-index: 2;
+}
+
+nav button:hover, nav button:focus{
+  background-color: var(--hoofdkleur);
+  outline: none;
+  z-index: 2;
+}
+
+nav ul{
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 0em;
+  padding: 1em 0 0;
+  list-style: none;
+  position: fixed;
+  background-color: rgba(0,0,0,.9);
+  transform: translateX(-200%);
+  transition: 0.1s;
+  z-index: 2;
+}
+
+nav.toonMenu ul{
+  transform: translateX(0);
+  z-index: 2;
+}
+
+nav form{
+  display: flex;
+  margin-left: 2em;
+  transform: translateX(-100%);
+  transition: 0.1s;
+  z-index: 1;
+  position: fixed;
+  z-index: 2;
+}
+
+nav li{
   display:flex;
   justify-content:space-between;
   padding: 1em;
-  position: sticky;
   width: 100%;
   list-style: none;
-}
-/*<-----------HEADER IMG----------->*/
-nav ul li:first-of-type img{
-  width: 3em;
-}
-
-nav ul li:last-of-type img{
-  width: 0.7em;
-}
-
-/*<-----------HEADERMENU----------->*/
-.menu-btn{
-  position: relative;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 3em;
-  height: 1em;
-  cursor: pointer;
-  transition: all .5s ease-in-out;
+  color: white;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  transition: 350ms ease;
+  z-index: 2;
 }
 
-.menu-btn__burger{
-  width: 3.125em;
-  height: 0.375em;
-  background: black;
-  border-radius: 5px;
-  box-shadow: white;
-  transition: all .5s ease-in-out;
+nav li:hover{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,72,121,1) 34%, rgba(0,135,255,1) 73%);
 }
 
-.menu-btn__burger::before,
-.menu-btn__burger::after{
-  content: '';
-  position: absolute;
-  width: 3em;
-  height: 0.375em;
-  background: black;
-  border-radius: 5px;
-  box-shadow: white;
-  transition: all .5s ease-in-out;
+nav a{
+  display: flex;
+  align-items: center;
+  gap: .25em;
+  padding: .25em 1em;
+  background-color: var(--hoofdkleur);
+  z-index: 2;
 }
 
-.menu-btn__burger::before{
-  transform: translateY(-16px);
-}
-.menu-btn__burger::after{
-  transform: translateY(16px);
+nav a:hover, nav a:focus{
+  outline: none;
+  border: 2px solid var(--wit);
+  z-index: 2;
 }
 
-/*<-----------HEADER MENU ANIMATIE----------->*/
+nav a:active{
+  color: var(--hoverkleur);
+  z-index: 2;
+}
 
 /*<-----------TITEL----------->*/
 h1{
@@ -85,7 +136,7 @@ section article{
   justify-content: center;
   width: 90%;
   margin:auto;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   font-size: 1.5em;
   font-weight: bolder;
   border-style: solid;
@@ -95,17 +146,141 @@ section article{
   background-color:rgb(22, 22, 22);
 }
 
-section img{
+main section img{
   width: 100%;
 }
 
 section p{
   color: white;
   font-size: 0.5em;
-  padding: 0.5em;
+  padding-left: 1.3em;
+  padding-bottom: 1.5em;
 }
 
 section h3{
   color: white;
-  padding: 0.2em;
+  padding-left: 0.6em;
+}
+
+/*<-----------FOOTER----------->*/
+footer{
+  background-color: #161616;
+  color: white;
+}
+
+footer details{
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid gray;
+}
+
+footer details summary{
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+footer details summary:hover{
+  color: white;
+}
+
+footer section{
+background-color: #161616;
+  padding: 2em;
+}
+
+footer section:first-of-type img{
+  max-width: 1.3em;
+  height: auto;
+}
+
+footer section:nth-of-type(3){
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+footer section:nth-of-type(2) img{
+  max-width: 2em;
+  height: 1em;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+/*<-----------PAGINA 2----------->*/
+.paginatwee{
+  background: black;
+}
+
+.headertwee{
+  position: static;
+  background: white;
+}
+
+.paginatwee section article{
+  justify-content: center;
+  width: 100%;
+  margin:auto;
+  margin-bottom: 1.25em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 2px;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  background-color:rgb(22, 22, 22);
+}
+.paginatwee main {
+  display: flex;
+  overflow-x: hidden;
+  flex-wrap: wrap;
+  background-color: var(--background-color);
+}
+
+.paginatwee main section ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.paginatwee main section ul li{
+  width: calc(50% - 0.3em);
+  position: relative;
+  margin-bottom: 0.3em;
+  list-style: none;
+  display: list-item;
+}
+
+.paginatwee main section ul li a {
+  text-decoration: none;
+}
+
+.paginatwee main section ul li article h2 {
+  font-family: var(--font-family-text);
+  color: white;
+  font-size: medium;
+  font-weight: var(--font-weight);
+  margin-left: 0em;
+  text-align: left;
+}
+
+.paginatwee main section img{
+  width: 100%;
+}
+
+.paginatwee section article{
+  background-color: black;
+  border:none;
+  text-align: center;
+}
+
+.paginatwee section p {
+  text-align: left;
+  color: white;
+  font-size: 0.5em;
+  padding-left: 0%;
+  padding-bottom: 1.5em;
 }
