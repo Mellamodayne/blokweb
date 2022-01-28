@@ -58,8 +58,8 @@ Op de tweede pagina die ik wil maken kun je gaan shoopen, hierin zie je producte
 <img src="images/week1.png" width="375px" alt="De stukjes in de eerste pagina die weg kunnen">
 
 ### Een breakdown van een pagina: 
-<img src="images/week1.1" width="375px" alt="Een breakdown van een pagina">
-<img src="images/week1.3" width="375px" alt="Een breakdown van een pagina">
+<img src="images/week1.1.png" width="375px" alt="Een breakdown van een pagina">
+<img src="images/week1.3.png" width="375px" alt="Een breakdown van een pagina">
 </details>
 
 
@@ -112,7 +112,7 @@ Je kan hover, a, focus, active leren gebruiken.
 
 #### Tweede bevinding. 
 Ik kreeg errors in mijn html, veel fouten zijn dat de A niet binnen de UL mag zitten, dat komt doordat alleen een 'LI' direct binnen een UL mag zitten. dus in plaats van ul,a ,li, moest het ul, li, a zijn. Dit heb ik vervolgens gecorrigeerd.
-<img src="images/week4.1" width="375px" alt="Een breakdown van een pagina">
+<img src="images/week4.1.png" width="375px" alt="Een breakdown van een pagina">
 </details>
 
 
