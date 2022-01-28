@@ -39,13 +39,12 @@ Surface plane
 https://bbcicecream.eu/pages/eu-sounds
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Dit is de eerste pagina van de Billionaire Boys Club EU Sounds waar je artiesten ziet staan die zij geïnterviewd hebben.
-<img src="images/bbc_pagina1.png" width="375px" alt="Terrestrail Soungs">
+Op de eerste pagina die ik wil maken staan er kopjes met geinterviewde artiesten. Deze artiesten zijn geinterviewd door BBC.
+<img src="images/bbc_pagina1.png" width="375px" alt="">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Je kan meer weten over de artiest om op zijn foto te drukken, waarbij je vervolgens op een pagina komt met vragen en antwoorden.
-<img src="images/bbc_pagina2.png" width="375px" alt="Boys of Tomorrow Vol: 6. Goya Gumbani">
- 
+Op de tweede pagina die ik wil maken kun je gaan shoopen, hierin zie je producten die de website verkoopt.
+<img src="images/bbc_pagina2.png" width="375px" alt="">
 </details>
 
 
@@ -53,17 +52,14 @@ Je kan meer weten over de artiest om op zijn foto te drukken, waarbij je vervolg
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>In de eerste week heb ik een breakdown gemaakt van de eerste EU sound pagina op Adobe XD</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+### De stukjes in de eerste pagina die weg kunnen: 
+<img src="images/week1.png" width="375px" alt="De stukjes in de eerste pagina die weg kunnen">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+### Een breakdown van een pagina: 
+<img src="images/week1.1" width="375px" alt="Een breakdown van een pagina">
+<img src="images/week1.3" width="375px" alt="Een breakdown van een pagina">
 </details>
 
 
@@ -76,28 +72,11 @@ Je kan meer weten over de artiest om op zijn foto te drukken, waarbij je vervolg
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+In de eerst had ik moeite met de achtergrond, h1, en het verdelen van mijn breakdowns. De h1 niet goed werd gepositioneerd, de achtergrond was wazig en de breakdowns kon ik niet zo goed begrijpen. Dit had ik vervolgens opgelost en is het goed gekomen. Ik hab nog niet de juiste achtergrond gebruikt, dit probleem los ik later op.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- EM is gelijk aan 14 pixels, dat kan je beste gebruiken omdat dit meegaat bij het vergroten of verkleinen.
-- Font-family zoeken op Google Font website,waarbij je vervolgens de link kopieerd die je kan plakken in je HTML head.
-- Semantisch is de waarde die we hechten aan woorden, zoals een zinsopbouw. 
-
+De eerste meeting was positief, alleen was mijn html niet netjes. Dit heb ik vervolgens gecorrigeerd.
 </details>
-
 
 
 
@@ -108,26 +87,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Ik had moeite met het maken van mijn hamburger menu. Ik was van plan om zelf eentje te maken met CSS, maar daar had ik moeite mee, hierdoor was ik toch gegaan voor een PNG. Ik heb veel moeite ingestoken, omdat ik dit zelf wilde oplossen. Dit is vervolgens goed gekomen en was ik verder met het opzetten van de UL,LI,A, kleur etc.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- Flex end = uitlijnen eind van de container
-- Flex end = uitlijnen begin vand e container
-- Overflow is,stel je hebt een box met plaatjes, dat het dan niet over de lijn gaat van de box. Je kan bij overflow auto scrollen van links naar rechts.
-
+De hamburger menu ziet er goed uit. Ik had veel onnodige dingen op css, die weg konden. Ze zaten bijvoorbeeld dubbel of werkte iet, dit heb ik vervolgens opgelost.
 </details>
 
 
@@ -142,28 +105,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Bij images staat .. voor een mapje terug.
-Voorbeeld: Van index.html linken naar foto2019.jpg: “..images/foto2019.jpg”, gebruik dit niet bij github, omdat zij jouw mapje niet hebben. 
-
-Gebruik: img src="images/voorbeed2021.png" alt="">
+#### Eerste bevinding
+Je kan hover, a, focus, active leren gebruiken.
+<img src="images/week4.png" width="375px" alt="Terrestrail Soungs">
 
 
-#### Titel tweede bevinding. 
-<ol> is een geordende lijst 
-<ul> is een ongeordende lijst
-<li>  is een gelijste
-
-Ordered list is een lijst met getallen 1,2,3,4 etc. en een unordered list is een list met bullits (van die zwarte bolletjes)
-
-
-#### Titel volgende bevinding. 
-H1, H3, H3 tags zijn heading tags. De H1 is de eerste kop van een pagina.
-
-
-#### Titel nog een bevinding. 
-Je kan ieder section
-
+#### Tweede bevinding. 
+Ik kreeg errors in mijn html, veel fouten zijn dat de A niet binnen de UL mag zitten, dat komt doordat alleen een 'LI' direct binnen een UL mag zitten. dus in plaats van ul,a ,li, moest het ul, li, a zijn. Dit heb ik vervolgens gecorrigeerd.
+<img src="images/week4.1" width="375px" alt="Een breakdown van een pagina">
 </details>
 
 
@@ -176,26 +125,11 @@ Je kan ieder section
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Ik had aan mijn tweede pagina gewerkt. De pagina met producten dit te koop zijn. Ook heb ik aan de footer gewerkt dit heb ik vervolgens gemaakt in mijn tweede pagina. Vervolgens geplakt in de eerste pagina van mijn html. Verder heb ik gewerkt aan de opzet van de tweede pagina van de producten.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Derde voortgang was ik afwezig, omdat ik mij niet goed voelde.
 
 </details>
 
@@ -209,12 +143,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik moest nog paar dingen verbeteren:
+* States.
+* List icons niet weggehaald, zijn ook geen linkjes in footer.
+* Paar contrast issues.
+* Linkjes in menu doen nog niet helemaal wat ze moeten doen.
+* Zitten nog wat errors in de valdiator.
+* CSS variabelen zijn er niet.
+* Procesverslag nog niet af.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
-
+<img src="images/fullfoto1.png" width="375px" alt="Een breakdown van een pagina">
+<img src="images/fullfoto2.png" width="375px" alt="Een breakdown van een pagina">
 </details>
 
 
@@ -228,8 +169,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/ (bij het maken van een menu)
+2. https://fonts.google.com/ (fonts die ik gebruikt heb)
+3. https://www.w3schools.com/tags/tag_ul.asp (ul,li, a volgorde voor mijn linkjes om geen error meer aan te geven. Ook bepaalde errors zoeken, px omrekenen naar em)
+3. Studentenassistent - Sam
+
 
 </details>
